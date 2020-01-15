@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "commit": "./node_modules/cz-customizable/standalone.js"
+    "commit": "./node_modules/cz-customizable/standalone.js",
+    "version": "conventional-changelog -p angular -i temp.md -s"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/storageddd/commitizen#readme",
   "devDependencies": {
+    "conventional-changelog": "^3.1.18",
     "cz-customizable": "^6.2.0"
   }
 }
