@@ -18,7 +18,7 @@ module.exports = {
     }
   ],
 
-  scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
+  scopes: [{ name: 'components' }, { name: 'design' }, { name: 'docs' }],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
