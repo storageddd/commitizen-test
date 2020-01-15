@@ -1,0 +1,22 @@
+{
+  "name": "commitizen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "./node_modules/cz-customizable/standalone.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storageddd/commitizen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storageddd/commitizen/issues"
+  },
+  "homepage": "https://github.com/storageddd/commitizen#readme",
+  "devDependencies": {
+    "cz-customizable": "^6.2.0"
+  }
+}
