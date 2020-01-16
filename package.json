@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "./node_modules/cz-customizable/standalone.js",
-    "version": "conventional-changelog -p angular -i temp.md -s"
+    "version": "conventional-changelog -p angular -i ./changelog/temp.md -s"
   },
   "repository": {
     "type": "git",
